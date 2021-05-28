@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZBulider.com</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+   
+    
+</head>
+<body>
+    <main id="main">
+
+    <div class="main-contents-block">
+                <div>
+                        <img src="image/undraw_Hiring_re_yk5n.svg" alt="headerIamge" class="headerimg">
+                 </div>
+                <div class="header">
+                    <h2>
+                        Build Your 
+                        <br>Resume Here!<br>
+                        <h4>We Bulid What Recuirters want<h4>
+                    </h2> 
+                </div>
+
+    </div>
+
+    <div class="card">
+        <div class="main-card">
+            <h1>
+               <span>Do you know?</span><br>
+                A resume is a document used by a person <br>
+                To present their background, skills, and accomplishments.<br>
+                We create resume's<br>
+                that puts you one step ahead of others!
+            </h1>
+
+        </div>
+        <img src="image/undraw_product_iteration_kjok.svg" alt="Hiring Process" class='main-card-img'>
+
+    
+</div>
+
+<div class="card">
+    
+    <img src="image/undraw_in_progress_ql66.svg" alt="Hiring Process" class='main-card-img'>
+    <div class="main-card">
+        <h1>
+           <span>Do you know?</span><br>
+            Today's world is full of Automation, 
+            The 1<sup>st</sup>step recuirtment process done by<br>
+            AI technologies
+            your resume's get notified only after AI.
+        </h1>
+
+    </div>
+    
+
+</div>
+
+<div class="card">
+    <div class="main-card">
+        <h1>
+           <span>What should contain?</span><br>
+                In your resume,<br>
+                It is enough to have
+                data that matches the role!<br>
+                Be honest in your resume.
+        </h1>
+
+    </div>
+    <img src="image/undraw_Updates_re_o5af.svg" alt="Updated Resume" class='main-card-img'>
+    
+    
+
+</div>
+<div class="card">
+    <img src="image/undraw_Updated_resume_re_q1or.svg" alt="Hiring Process" class='main-card-img'>
+
+    <div class="main-card">
+        <h1>
+           <span>How to present your resume?</span><br>
+                Use photographed resume<br>
+                to get noticed in Virtual environmet<br>
+                Be precise
+                Don't use uncessary words,
+                
+        </h1>
+
+    </div>
+    
+    
+
+</div>
+
+
+    <div class="card">
+                
+
+                <div class="card-content-1">
+                        <img src="image/undraw_solution_mindset_34bi.svg" alt="Hiring Process" class="content-img">
+                        <h3>
+                            A problem solver<br>
+                            Is the one the company 
+                            hires Don't stick within a solution
+                        </h3>
+            
+                </div>
+                <div class="card-content-1">
+                    <img src="image/undraw_career_development_oqcb.svg" alt="Hiring Process" class="content-img">
+                    <h3>
+                        Explore more areas<br>
+                        There are lot more opportunities
+                        Opened to explore 
+                    </h3>
+        
+            </div>
+
+            <div class="card-content-1">
+                <img src="image/undraw_developer_activity_bv83.svg" alt="Hiring Process" class="content-img">
+                <h3>
+                    Get hired by our Skills<br>
+                    Update yourself now and then!
+                </h3>
+    
+          </div>
+    </div>
+
+    <br>
+    
+    </main>
+
+    <div id="Entryform">
+        
+        <fieldset>
+        
+            <legend>Resume Contents</legend>
+            <h6 style="color: red; font-size: 12px;">Be Confirm while giving data,once you given you cant edit ! </h6>
+            <label for="Contact-Name">Name</label><br>
+            <input type="text"  max="30" autocapitalize="on" autocomplete="on" name="Contact-Name-First" id="Contact-Name-First" placeholder="First Name" >
+            <input type="text"  max="15" autocomplete="on" name="Contact-Name-Initial" id="Contact-Name-Iinitial" placeholder="Last Name">
+            <input type='file' class='file-upload-btn' onchange="readURL(this)">
+            <div id="Contact">
+                    <label for="Contact-Address">Address</label><br>
+                    <input type="text" autocomplete="on" name="Contact-Address-line1" id="Contact-Address-line1" placeholder="Door No." size="4">
+                    <input type="text" autocomplete="on" name="Contact-Address-line2" id="Contact-Address-line2" placeholder="Apartment/Area/Street" size="15">
+                    <input type="text" autocomplete="on" name="Contact-Address-line3" id="Contact-Address-line3" placeholder="City" size="10">
+                    <input type="text" autocomplete="on"  name="Contact-Address-line4" id="Contact-Address-line4" placeholder="District" size="14">
+        
+            </div>
+            <div id="Mail">
+                    <label for="Contact-Mail">Mail id</label><br>
+                    <input type="email" autocomplete="on" name="Contact-Mail" id="Contact-Mail">
+            </div>
+            <div id="Phone">
+                    <label for="Contact-Phno">Phone.no</label><br>
+                    <input type="text" autocomplete="on" name="Contact-Phno" id="Contact-Phno" placeholder="91 0000000000"pattern="91\s[0-9]{10}">
+           </div>
+             <div id="CareerObjective">   
+                 <label for="Objective">Objective</label><br>
+                    <textarea id="Objective" rows="2" cols="50" name="Objetive">Utilising this opportunity to enhance my skills and career
+                    </textarea>
+             </div>
+         
+                    
+            <div id="Skilled"> 
+                    <span id="ForSkills">
+                        <label for="Skills">Skills</label><br>
+                        <input  max="30" type="Skill" name="Skill" id="Skills" placeholder="Try to fit yourself within 30 letters">
+                        <button class="add-new-btn" id="newSkills" onclick="addSkills(this)" size="20">Add New</button>
+                    </span>
+                    <h5 style="color:grey">You can't add more than 4</h5>
+            </div>
+            <div id='Acadamics'>
+                        <label for="Education">Acadamics</label><br>
+                        <div>
+                            <h3>Degree</h3>
+                            <input type="text" autocomplete="on" name="Education-College-Name" id="Education-College-Name" size="30" placeholder="College Name">
+                            <input type="text" autocomplete="on" name="Education-College-Degree" id="Education-College-Degree" size="15" placeholder="Stream">
+                            <input type="text" autocomplete="on" name="Education-College-Mark" id="Education-College-Mark" size="2" placeholder="CGPA" pattern="[0-9]{1,2}(.[0-9]{1,2}){0,1}">
+                            <input type="month" autocomplete="on" name="Education-College-Year" min="2000-01" id="Education-College-Year" placeholder="Year of Completion">
+                            
+                        </div>
+                        <div>
+                                <h3>12<sup>th</sup></h3>
+                                <input type="text" autocomplete="on" name="Education-XII-School" id="Education-XII-School" size="30" placeholder="School-Name">
+                                <input type="text" autocomplete="on" name="Education-XII-Mark" id="Education-XII-Mark" size="2" placeholder="Marks" pattern="[0-9]{1,3}(.[0-9]{1,2}){0,1}(%){0,1}">
+                                <input type="month"autocomplete="on"  name="Education-XII-Year" min="2000-01" id="Education-XII-Year" placeholder="Year of Completion">
+                            </div>
+                        <div>
+                                <h3>10<sup>th</sup></h3>
+                                <input type="text" autocomplete="on" name="Education-X-School" id="Education-X-School" size="30" placeholder="School-Name">
+                                <input type="text" autocomplete="on" name="Education-X-Mark"  id="Education-X-Mark" size="2" placeholder="Marks" pattern="[0-9]{1,3}(.[0-9]{1,2}){0,1}(%){0,1}">
+                                <input type="month"autocomplete="on" name="Education-X-Year" min="2000-01" id="Education-X-Year" size="4" placeholder="Year of Completion">
+
+                        </div>
+            </div>
+            <div id="ForCertification">
+               
+                        <span id="ForCertificationSpan">
+                            <label for="Certification-details">Certification</label><br>
+                                <input title="shortname provider is enough" type="text" autocomplete="on" name="Certification-details" placeholder="Certification   provider" pattern="(\w{1,}\s\w{1,}){1,}" id="Certification-details" class="Certification">                  
+                               <button class="add-new-btn" id="newCertify" onclick="addCertifications(this)">Add New</button>
+                        </span>
+                        <h5 style="color:grey">You can't add more than 4</h5>
+            </div>
+            <div id="ForExtraCuricularActivities">
+                <span id="ForExtraCuricular">
+                    <label for="ExtraCuricular-Activities">Extracuricular-Activities</label><br>
+                    <input list='ex' type="text"  name="ExtraCuricular-Activities" placeholder="Type-if-not-found" id="ExtraCuricular-Activities">
+                    <button  class="add-new-btn" id="newExtraAvt" onclick="addExtraActivities(this)">Add New</button>
+                </span>
+                <h5 style="color:grey">You can't add more than 3</h5>
+            </div>
+            <div id="ForIntrestFields">
+                    <span id="ForIntrest">
+                        <label for="Interest-areas">Areas of intrest</label><br>
+                        <input type="text" autocomplete="on" name="Interest-areas" max="20" id="Interest-areas" placeholder="Try to fit yourself within 20 letters">
+                        <button class="add-new-btn" id="newInterest" onclick="addInterest(this)">Add New</button>
+                    </span>
+                    <h5 style="color:grey">You can't add more than 3</h5>
+           </div>
+           <div id="Hobbies">
+                <span id="ForHobbies">
+                    <label for="Hobby-details">Hobby or Internship</label><br>
+                    <input list ="hb" type="text" max="20" name="Hobby-Intr-details" id="Hobby-Intr-details" placeholder="Try to fit yourself within 20 letters">
+                    <button class="add-new-btn" id="newHobbies" onclick="addHobby(this)">Add New</button>
+
+                </span>
+                <h5 style="color:grey">You can't add not moret than 2</h5>
+            </div>
+            <button id="readyForPrint" onclick="getResumeValues()">
+                <i class="fa fa-print fa-lg" aria-hidden="true"></i>
+                My Resume
+            </button>
+
+        </fieldset> 
+        <datalist id="hb">
+            <option value="Signing">Signing</option>
+            <option value="Dancing">Dancing</option>
+            <option value="Drawing">Drawing</option>
+            <option value="Designing">Designing</option>
+            <option value="Essay Writing">Essay Writing</option>
+            <option value="Student Clubs">Student Clubs</option>
+            <option value="The Debate Team">The Debate Team</option>
+            <option value="The Arts">The Arts</option>
+            <option value="Sports">Sports</option>
+            <option value="Culture Clubs">Culture Clubs</option>
+            <option value="Community Services">Community Services</option>
+            <option value="Artical Publishing">Artical Publishing</option>
+            <option value="Drama">Drama</option>
+            <option value="Mime">Mime</option>
+            <option value="Photography">Photography</option>
+            <option value="Cookery">Cookery</option>
+            <option value="Knetting">Knetting</option>
+            <option value="Origami">Origami</option>
+            <option value="Strach book">Strach book</option>
+            <option value="Numismatics">Numismatics</option>
+            <option value="Collecting">Collecting</option>
+            <option value="Sewing">Sewing</option>
+            <option value="Embroidery">Embroidery</option>
+            <option value="Wood Working">Wood Working</option>
+            <option value="Painting">Painting</option>
+            <option value="Magazine Reading">Magazine Reading</option>
+            <option value="Spell Bee">Spell Bee</option>
+            <option value="JAM">JAM</option>
+        
+        </datalist>
+        <datalist  id='ex'>
+            <option value="Student Clubs">Student Clubs</option>
+            <option value="The Debate Team">The Debate Team</option>
+            <option value="The Arts">The Arts</option>
+            <option value="Sports">Sports</option>
+            <option value="Culture Clubs">Culture Clubs</option>
+            <option value="Community Services">Community Services</option>
+            <option value="Artical Publishing">Artical Publishing</option>
+            <option value="Drama">Drama</option>
+            <option value="Mime">Mime</option>
+            <option value="Photography">Photography</option>
+            <option value="Cookery">Cookery</option>
+            <option value="Knetting">Knetting</option>
+            <option value="Origami">Origami</option>
+            <option value="Strach book">Strach book</option>
+            <option value="Numismatics">Numismatics</option>
+            <option value="Collecting">Collecting</option>
+            <option value="Sewing">Sewing</option>
+            <option value="Embroidery">Embroidery</option>
+            <option value="Wood Working">Wood Working</option>
+            <option value="Painting">Painting</option>
+            <option value="Magazine Reading">Magazine Reading</option>
+            <option value="Spell Bee">Spell Bee</option>
+            <option value="JAM">JAM</option>
+        </datalist>
+        
+
+        
+        
+    
+    </div>
+    <div id="my-resume">
+        <table class="resumeContactTable" id="resumeContactTable" data-name="resumeBulidTable" data-set-row="7" data-set-col="2">
+                    
+                <tr class="resumeTablerow-1" id="Name">
+                        
+                    <td class="ContactDetails">
+                            <h3>
+                                <span id="Name-name" class="Name">
+                                    <!--Getting Name -->
+                                </span><br>
+                                <span id="Name-Address-line1" class="Address">
+                                 <!--Getting DoorNo-->
+                                </span><br>
+                                <span id="Name-Address-line2" class="Address">
+                                 <!--Getting Area Apartment Street-->
+                                </span><br>
+                                <span id="Name-Address-line3" class="Address">
+                                     <!--Getting City-->
+                                </span><br>
+                                <span id="Name-Address-line4" class="Address">
+                                 <!--Getting District-->
+                                </span><br>
+                                <span id="Name-contactInfo-mail" class="ContactInfo">
+                                 <!--Mail id-->
+                                </span><br>
+                                <span id="Name-contactInfo-Phno" class="ContactInfo">
+                                 <!--Phone No-->
+                                </span>
+                            </h3>
+                    
+                    </td>
+                    <td id="resume-photo">
+                        <img src="" alt="YourPhoto.jpeg" id="yourphoto">
+                    </td>
+                    
+                </tr>
+        </table>
+        <table class="resumeTable" id="resumeTable" data-name="resumeBulidTable" data-set-row="7" data-set-col="2">
+            
+           
+            <tr class="resumeTablerow" id="ObjectiveIn">
+                <td class="resumeContent">
+                    <h3>Objective</h3>
+                </td>
+                <td class="mainContent careerObjective">
+                    <p id="Objective matter">
+                         <!--Carrer Objective of his own-->
+                    </p>
+                </td>
+            </tr>
+           
+            <tr class="resumeTablerow" id="Skills">
+                <td class="resumeContent">
+                    <h3>Skills</h3>
+                </td>
+                <td class="mainContent">
+                    <ol id="Skills-list">
+                         <!--list of skills not more than 4-->
+                     </ol>
+                </td>
+            </tr>
+            <tr class="resumeTablerow" id="Education">
+                <td class="resumeContent">
+                    <h3>Education</h3>
+                </td>
+                <td class="mainContent">
+                    <p>
+                       <span id="College-name" class="CollegeName">
+                           <!--College Name-->
+                        </span>
+                        <span id="Degree-details" class="DegreeDetails">
+                            <!--Course Details like CGPA,Year of Completion-->
+                        </span>
+                        <span id="School-name" class="SchoolName">
+                            <!--School Name-->
+                        </span>
+                        <sapn id="School-details" class="SchoolDetails">
+                               <!--Course Details like CGPA,Year of Completion--> 
+                        </span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="resumeTablerow" id="Certification">
+                <td class="resumeContent">
+                    <h3>Certifications</h3>
+                </td>
+                <td class="mainContent">
+                    <ol id="Certification-list">
+                        <!--List of Certification not morethan 4-->
+                    </ol>
+                </td>
+            </tr>
+            <tr class="resumeTablerow" id="Interest">
+                <td class="resumeContent">
+                    <h3>Interest</h3>
+                </td>
+                <td class="mainContent">
+                    <ol id="Interest-list">
+                        <!--list of Intreset Fields not more than 3-->
+                    </ol>
+                </td>
+            </tr>
+            <tr class="resumeTablerow" id="Interest">
+                <td class="resumeContent">
+                    <h3>ExtraCuricular Activities</h3>
+                </td>
+                <td class="mainContent">
+                    <ol id="ExtraCuricullar-list">
+                         <!--list of ExtraCuricullar Fields not more than 3-->
+                    </ol>
+                </td>
+            </tr>
+            <tr class="resumeTablerow" id="Hobbies">
+                <td class="resumeContent">
+                    <h3>Hobbies</h3>
+                </td>
+                <td class="mainContent">
+                        <ol id="Hobbies-list">
+                     <!--list of Hobbies not more than 3-->                          
+                        </ol>
+                </td> 
+            </tr>
+        
+        </table>
+        
+    </div>
+
+
+
+
+
+</body>
+
+<script src="script.js"></script>
+</html>

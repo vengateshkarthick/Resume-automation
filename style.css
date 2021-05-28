@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Righteous&display=swap');
+*{
+    margin:2px;
+    font-family: 'Poppins',sans-serif;
+    
+}
+body{
+    height:fit-content;
+
+}
+input:-webkit-autocomplete,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus{
+    background-color: white;
+}
+.main-contents-block{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    border: 2px solid whitesmoke;
+    flex-wrap: wrap;
+    border-radius: 18px;
+}
+
+.headerimg{
+ height:400px;
+ width:350px;
+
+}
+@media screen and (max-width:700px){
+    .main-contents-block{
+        width: fit-content;
+        justify-content: space-between;
+        border-radius:14px;
+    
+    }
+    .headerimg{
+        height:100px;
+        width:150px;
+       
+       }
+}
+.header{
+    color:#00BFA6;
+    font-size: 28px; 
+    border-bottom: 4px solid #00BFA6;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.header h2{
+    font-family: 'Righteous',cursive;
+    
+}
+.header h2 h4{
+    font-family: "Poppins",sans-serif;
+}
+@media screen and (max-width:700px){
+    .header{
+        font-size:16px;
+       }
+
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin:6px;
+    max-height: fit-content;
+    
+
+}
+.card .main-card{
+    display: inline-block;
+}
+.card .main-card h1{
+    
+    font-size: 24px;
+}
+.card .main-card h1 span{
+    
+    font-family:"Righteous",cursive;
+}
+.card .main-card-img{
+    padding: 4px;
+    height:400px;
+    width:400px;
+}
+.card .card-content-1{
+    height: 400px;
+    width:300px;
+    border-radius:18px;
+    padding: 4px;
+    margin:4px;
+    border:2px solid whitesmoke;
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+
+}
+.card .content-img{
+    height:50%;
+    width:90%;
+   
+   }
+
+.card .card-content-1 h3{
+       padding:6px;
+       text-align: center;
+        font-size: 16px;
+        /*14px for mobile view*/
+    }
+
+
+
+@media screen and (max-width:700px){
+    
+    .card .main-card{
+        justify-self: left;
+    }
+    .card .main-card h1{
+    
+        font-size:12px;
+    }
+    .card .main-card-img{
+        
+        height:150px;
+        width:150px;
+    }
+
+    .card .card-content-1{
+        height: 300px;
+        width:250px;
+        border-radius:5px;
+        
+    
+    }
+    .card .content-img{
+        height:40%;
+        width:90%;
+       
+       }
+    .card .card-content-1 h3{
+        padding:6px;
+    
+        font-size:12px;
+         
+     }
+ 
+    
+}
+#my-resume{
+display: none;
+
+}
+/* Resume editing*/
+.resumeContactTable {
+    width: 100%;
+}
+.resumeContactTable .ContactDetails {
+    width:50%;
+}
+.Name{
+    font-size:26px;
+    font-weight: 900;
+
+}
+.Address{
+    font-weight: 400;
+    font-size:12px;
+    
+}
+.ContactInfo{
+    font-size: 12px;
+    font-weight: 600;
+
+}
+.resumeTable{
+
+    padding: 10px 5px;
+    width:100%
+    
+    
+}
+.resumeTable .resumeTablerow .resumeContent{
+    width:25%;
+
+}
+.resumeTable h3{
+    
+    font-size: 20px;
+    padding-top:6px;
+    padding-bottom:6px;
+}
+
+.resumeTable p,.resumeTable ol,.resumeTablerow-1{
+    
+    border-top: 1px solid black;
+
+    font-size: 12px;
+    
+}
+.resumeTable p{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.resumeTable ol{
+    list-style-type: decimal;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+}
+
+
+.CollegeName ,.SchoolName{
+    font-weight:bolder;
+     display: block;
+}
+.DegreeDetails,.SchoolDetails{
+    font-size:12px;
+    display: inline-flex;
+}
+/*----Ends----*/
+fieldset{
+    border:2px solid white;
+    box-shadow: 4px 4px 4px 4px whitesmoke;
+    border-radius: 14px;
+}
+legend{
+    font-size: 24px;
+    font-family: "Righteous",cursive;
+}
+input,textarea{
+    padding:10px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid rgb(72,230,156);
+    
+}
+
+input:focus,textarea:focus{
+    outline:none;
+    border: 3px solid rgb(74, 168, 206);
+}
+textarea{
+    resize: none;
+}
+label{
+    display: inline-flex;
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+}
+
+input :placeholder-shown{
+    font-family: sans-serif;
+    font-size:10px;
+}
+input:invalid{
+    border-color: red;
+}
+.entries-list{
+    font-family:"Poppins",sans-serif;
+    display: inline-flex;
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+    border:2px dashed rgb(72,230,156);
+    border-radius:18px;
+    color:rgb(72,230,156);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+.add-new-btn{
+
+    border:1px solid rgb(72,230,156);
+    border-radius: 10px;
+    background-color:rgb(72,230,156);
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+    font-weight:bolder;
+    padding: 6px;
+    color: white;
+    box-shadow: 1px 1px 1px 1px whitesmoke; 
+    outline: none;
+    cursor: pointer;
+}
+h5{
+    display:none;
+}
+#readyForPrint{
+    display: inline-block;
+    
+    padding:6px 8px;
+    background-color: rgb(50, 174, 223);
+    outline:none;
+    color:white;
+    font-size:16px;
+    font-weight: bold;
+    border:1px solid rgb(50, 174, 223);
+    border-radius: 14px;
+    cursor: pointer;
+    font-family:"Poppins",sans-serif;
+
+
+}
+
+.file-upload-btn::-webkit-file-upload-button{
+    visibility: hidden;
+}
+
+.file-upload-btn::before{
+    display: inline-block;
+color:white;
+  border: 1px solid rgb(72,230,156);
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size:12px;
+    content: "your photo";
+    background-color: rgb(72,230,156);
+}
+.file-upload-btn:hover::before {
+    border-color: rgb(74, 168, 206);
+  }
+.file-upload-btn:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  }
+  #yourphoto{
+      max-height:2in ;
+      max-width: 2in
+  }
+@media screen and (max-width:700px){
+    input,textarea{
+        
+        display: block;
+        padding:5px;
+        font-size: 10px;
+        
+        
+    }
+    label,h3{
+        font-family: "Poppins",sans-serif;
+        font-size: 14px;
+        font-weight:600;
+    }
+    
+    fieldset{
+        width: fit-content;
+        margin:none;
+        border:2px solid transparent;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px 2px whitesmoke;
+
+    }
+    legend{
+        font-size: 14px;
+    }
+    input:focus,textarea:focus{
+        outline:none;
+        border: 2px solid rgb(81, 193, 238);
+    }
+    .entries-list{
+        border:1px solid whitesmoke;
+        color:black;
+        font-size: 10px;
+        font-weight: 500;
+        padding:5px;
+        
+    }
+.add-new-btn{
+
+       border-radius: 10px;     
+        font-size: 10px;
+        padding:5px 4px;
+        }
+        #readyForPrint{
+            padding:3px 4px;
+            font-size: 10px;
+            font-family:"Poppins",sans-serif;
+            border-radius: 5px;
+
+        }
+       
+}
